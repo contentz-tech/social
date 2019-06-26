@@ -1,7 +1,7 @@
 {
   "name": "@contentz/social",
   "description": "Generate social images for Contentz",
-  "version": "3.14.0",
+  "version": "3.14.1",
   "main": "src/index.js",
   "bin": {
     "contentz-social": "./cli.js"
@@ -22,7 +22,7 @@
     "mdx",
     "i18n"
   ],
-  "repository": "https://github.com/sergiodxa/contentz.git",
+  "repository": "https://github.com/contentz-tech/social.git",
   "author": {
     "name": "Sergio Xalambrí",
     "email": "hello@sergiodxa.com",
@@ -31,7 +31,7 @@
   "homepage": "https://contentz.tech",
   "bugs": {
     "email": "hello+contentz@sergiodxa.com",
-    "url": "https://github.com/sergiodxa/contentz/issues"
+    "url": "https://github.com/contentz-tech/social/issues"
   },
   "license": "MIT",
   "dependencies": {
