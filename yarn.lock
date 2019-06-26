@@ -26,9 +26,9 @@
     to-fast-properties "^2.0.0"
 
 "@contentz/utils@^3.13.1":
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/@contentz/utils/-/utils-3.13.1.tgz#32d5e62d6862af6a1ba7acf24f3847818534568d"
-  integrity sha512-aBmKbea6KeHhpFrY9b+K+wIXudkDTaj8uut/ltGwtIJDgqqe/YH8F0PwHdy7aahS1LwkK+f9/+z+fUmIOiiYJg==
+  version "3.13.2"
+  resolved "https://registry.yarnpkg.com/@contentz/utils/-/utils-3.13.2.tgz#a7f6be4f5af9b06698dda8b39c5bbbba7c7e0ac7"
+  integrity sha512-MGyhbEurrQMZKn6TN+XsLxFrPIxWLFzIPXGOM6436n0vrSGLz9yUyGtj4yu1+qJc3z9xQTUZO7fqV76KxsIWwg==
   dependencies:
     gray-matter "^4.0.2"
     mkdirp "^0.5.1"
