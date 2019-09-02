@@ -370,9 +370,9 @@ duplexer2@^0.1.2:
     readable-stream "^2.0.2"
 
 emotion-server@^10.0.9:
-  version "10.0.14"
-  resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-10.0.14.tgz#dd4146f1e827c7dcb1861bbd92e420d50167e83f"
-  integrity sha512-lxRyEISpiF8G7Q3Dt8xnK+flWfWeimo2PDRO8Me3zosUDJe8J2AzYe7pe80pFs3GMeOES98oV7/Ah5tiCTAGjw==
+  version "10.0.17"
+  resolved "https://registry.yarnpkg.com/emotion-server/-/emotion-server-10.0.17.tgz#314343afd0533f6151542408924ef19b364e8d44"
+  integrity sha512-f2KIJChSyuj5o4SR45C8B0mj5D9Bxc8kBy7ya9p7w4wkCQpcLXrnpGjpDXN82sJfbj/KV51UyOwTstYjd/QCmA==
   dependencies:
     create-emotion-server "10.0.14"
 
