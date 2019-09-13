@@ -874,9 +874,9 @@ proxy-from-env@^1.0.0:
   integrity sha1-M8UDmPcOp+uW0h97gXYwpVeRx+4=
 
 puppeteer-core@^1.14.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-1.19.0.tgz#3c3f98edb5862583e3a9c19cbc0da57ccc63ba5c"
-  integrity sha512-ZPbbjUymorIJomHBvdZX5+2gciUmQtAdepCrkweHH6rMJr96xd/dXzHgmYEOBMatH44SmJrcMtWkgsLHJqT89g==
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-1.20.0.tgz#cfad0c7cbb6e9bb0d307c6e955e5c924134bbeb5"
+  integrity sha512-akoSCMDVv6BFd/4+dtW6mVgdaRQhy/cmkGzXcx9HAXZqnY9zXYbsfoXMiMpwt3+53U9zFGSjgvsi0mDKNJLfqg==
   dependencies:
     debug "^4.1.0"
     extract-zip "^1.6.6"
