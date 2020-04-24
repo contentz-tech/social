@@ -41,7 +41,7 @@
     "emotion-server": "^10.0.9",
     "is-absolute": "^1.0.0",
     "local-chrome": "^0.1.0",
-    "meow": "^5.0.0",
+    "meow": "^6.1.0",
     "puppeteer-core": "^2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
