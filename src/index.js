@@ -19,7 +19,8 @@ async function main(paths) {
         case "archive":
         case "links":
         case "slides":
-        case "error": {
+        case "error":
+        case "cv": {
           return path;
         }
         default: {
@@ -74,6 +75,15 @@ async function main(paths) {
           data: {
             title: "Talks",
             description: `List of talks of ${config.title}`
+          }
+        };
+      }
+      case "cv": {
+        return {
+          path: "cv.mdx",
+          data: {
+            title: "CV",
+            description: `${config.title}'s resume`
           }
         };
       }
