@@ -1,5 +1,4 @@
 const { renderToStaticNodeStream } = require("react-dom/server");
-const { renderStylesToNodeStream } = require("emotion-server");
 const { jsx } = require("@emotion/core");
 const puppeteer = require("puppeteer-core");
 const { join, parse } = require("path");
@@ -10,9 +9,7 @@ const OpenGraph = require("../components/open-graph");
 function render(ui) {
   return new Promise(resolve => {
     let html = "";
-    const stream = renderToStaticNodeStream(ui).pipe(
-      renderStylesToNodeStream()
-    );
+    const stream = renderToStaticNodeStream(ui);
     stream.on("data", chunk => {
       html += chunk;
     });
