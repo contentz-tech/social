@@ -37,7 +37,7 @@
   "dependencies": {
     "@contentz/utils": "^3.13.1",
     "@emotion/core": "^10.0.10",
-    "chalk": "^2.4.2",
+    "chalk": "^4.0.0",
     "is-absolute": "^1.0.0",
     "local-chrome": "^0.1.0",
     "meow": "^5.0.0",
