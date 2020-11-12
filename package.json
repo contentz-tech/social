@@ -36,7 +36,7 @@
   "license": "MIT",
   "dependencies": {
     "@contentz/utils": "^3.13.1",
-    "@emotion/core": "^10.0.10",
+    "@emotion/core": "^11.0.0",
     "chalk": "^2.4.2",
     "is-absolute": "^1.0.0",
     "local-chrome": "^0.1.0",
