@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: puppeteer-core
+    versions:
+    - 5.5.0
+    - 6.0.0
+    - 7.0.0
+    - 7.0.1
+    - 7.0.3
+    - 7.0.4
+    - 7.1.0
+    - 8.0.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
